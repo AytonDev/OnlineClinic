@@ -1,9 +1,11 @@
 .about-us {
     background-color: $color-grey;
+
     &__about-box {
         max-width: 83.5rem;
         position: relative;
         margin: -10rem auto 6rem auto;
+        box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
         
         z-index: 1000;
         padding: 5rem 3rem 1rem 3rem !important;
@@ -16,6 +18,9 @@
             margin:0 0 2rem 0;
         }
     }
+    &__text{
+        font-size: 2.2rem !important;
+    }
     &__items {
         margin-bottom: 4rem;
     }
@@ -26,11 +31,17 @@
         position: relative;
     }
     &__item-picture {
-       
+       position: relative;
         height: 16.4rem;
         width: 100%;
         border-radius: 8px;
         background-color: orangered;
+    }
+    &__item-img {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
     }
     &__item-text {
         text-align: center;
@@ -40,6 +51,7 @@
         width: 150%;
         transform: translateX(-50%);
     }
+   
 }
 
 .bullet-points{

@@ -56,7 +56,8 @@
         width: 9.5rem;
         height: 9.5rem;
         display: inline-block;
-        background: orangered;
+        background: $color-white;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     }
     &__post-content{
         vertical-align: top;
@@ -86,7 +87,6 @@
         text-overflow: ellipsis;
         word-wrap: break-word;
     }
-
-    
-
 }
+
+  
