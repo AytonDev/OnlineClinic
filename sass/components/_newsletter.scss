@@ -1,0 +1,38 @@
+.newsletter {
+    color: $color-white;
+    background-color: $color-secondary;
+    padding: 3rem 0 4rem 0;
+
+    &__text-box {
+        text-align: center;
+        height: 100%;
+        max-width: 72rem;
+        position: relative;
+        margin: 2rem;
+        @media screen and (min-width: 992px) {
+                margin: auto;
+        }
+        p{
+            font-size: 2.2rem;
+            font-weight: 300;
+            line-height: 1.5;
+            margin-bottom: 3rem;
+        } 
+        
+    }
+    
+    &__form {
+        input {
+            @media screen and( max-width: 992px) {
+                margin: auto;
+                width: 100% !important;
+            }
+            border-radius: 0;
+            width: 42rem !important;
+            height: 5.6rem;
+        }
+    }
+}
+  
+  
+  

@@ -1,0 +1,78 @@
+.about-us {
+    background-color: $color-grey;
+    &__about-box {
+        max-width: 83.5rem;
+        position: relative;
+        margin: -10rem auto 6rem auto;
+        
+        z-index: 1000;
+        padding: 5rem 3rem 1rem 3rem !important;
+        background-color: $color-white;
+        .heading-secondary {
+            font-weight: 700;
+            border-bottom: 1px solid #d5d5d5;
+            display: inline-block;
+            padding: 0 10rem 2rem 10rem;
+            margin:0 0 2rem 0;
+        }
+    }
+    &__items {
+        margin-bottom: 4rem;
+    }
+    &__item {
+        width: 16.4rem;
+        height: 25rem;
+        margin: auto;
+        position: relative;
+    }
+    &__item-picture {
+       
+        height: 16.4rem;
+        width: 100%;
+        border-radius: 8px;
+        background-color: orangered;
+    }
+    &__item-text {
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        font-size: 2.5rem;
+        width: 150%;
+        transform: translateX(-50%);
+    }
+}
+
+.bullet-points{
+    background-color: $color-secondary;
+    color: $color-white;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    height: 53rem;
+    &__text-box {
+        margin: 10rem 0;
+    }
+    &__text {
+        font-weight: 300;
+        text-align: left
+    }
+    &__img-box {
+        position: absolute;
+        top:-26%;
+        right: 0;
+        height: 150%;
+        transform: translateY(0%);
+        width: 52%;
+        overflow: hidden;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        
+    }
+    &__img {
+        position: absolute;
+        max-height: 53rem;
+        transform: translateY(26%);
+        width: 100%;
+        height: 100%;
+    }
+}

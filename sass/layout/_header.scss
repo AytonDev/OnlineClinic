@@ -1,0 +1,41 @@
+.header{
+    &__line {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $color-secondary;
+        height: 4px;
+        width: 100%;
+        display: block;
+    }
+    background-color: $color-primary;
+    color: $color-white;
+    height: 47rem;
+    position: relative;
+    margin: 0;
+
+    &__wraper {
+        height: 100%;
+        max-width: 100rem;
+        position: relative;
+        margin: 2rem;
+        @media screen and (min-width: 992px) {
+            margin: auto;
+        } 
+    }
+
+    &__logo-box {
+        position: absolute;
+        top:0;
+        left:0;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}

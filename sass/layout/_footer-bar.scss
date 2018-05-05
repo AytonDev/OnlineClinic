@@ -1,0 +1,27 @@
+.footer-bar {
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 3rem 0;
+
+    &__link {
+        color: $color-white;
+    }
+    &__text {
+       margin: 0;
+       float: left;
+    }
+   
+    &__text-right {
+        margin-top: .5rem;
+        clear: both;
+        @media screen and( min-width: 992px) {
+            float: right;
+            clear: none;
+        }
+    
+    }
+   
+   
+       
+    
+}
